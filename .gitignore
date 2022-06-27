@@ -1,0 +1,8 @@
+*.db
+
+*.ini
+
+*.yaml
+*.yml
+
+*.bak
