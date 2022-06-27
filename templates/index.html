@@ -1,0 +1,19 @@
+<html>
+  <head>
+    <link rel="stylesheet" href='/static/main.css'/>
+    <link rel="stylesheet" href='/static/sidebar.css'/>
+    <link rel="stylesheet" href='/static/button.css'/>
+    <title>Open CCTV</title>
+  </head>
+  <body>
+    <div class="toolbar">
+      <h2 class="name">Hallo {{ username }}</h2>
+      <button class="button">Start</button>
+      <button class="button">Stop</button>
+    </div>
+    <div class="main">
+      <h1>Open CCTV</h1>
+      <img src="{{ url_for('video_feed') }}" alt="livestream">
+    </div>
+  </body>
+</html>
